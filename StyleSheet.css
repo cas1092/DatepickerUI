@@ -1,0 +1,68 @@
+﻿body {
+    background-color:antiquewhite;
+    margin:28%;
+    font-family:Verdana;
+    font-size:0.9rem;
+}
+*{
+    box-sizing:border-box;
+}
+.main_container {
+    
+    border-radius:0.5rem;
+    padding:1rem;
+    
+}
+.calendar{
+    border:solid black 2px;
+    margin-top:0.5reM;
+}
+img {
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+}
+.date_selector {
+    height: 3rem;
+    border: solid black 2px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 0.5rem;
+    font-size:1rem;
+}
+.month_selector {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding:0 1.5rem;
+    border-bottom:solid BLACK 2PX;
+}
+.head img{
+    width:1rem;
+    
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+    font-family: Verdana;
+    font-size: inherit;
+    
+    
+}
+li {
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 0.8rem;
+    
+    
+}
+.calendar_header{
+    font-weight:700;
+    padding:0.5rem;
+}
